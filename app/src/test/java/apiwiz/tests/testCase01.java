@@ -45,7 +45,7 @@ public class testCase01 {
         scenarioPage.selectGroup();
         Thread.sleep(2000);
         scenarioPage.fillFormAndSubmit("Tesing API Virtualisation1", "automating the module1", "automating the module1");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         scenarioPage.addScenario();
         Thread.sleep(2000); 
         addScenarioPage.fillBasicInfo("dummy1", "dummy1", "dummy1");
